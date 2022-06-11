@@ -12,7 +12,8 @@ function getUserInfo() {
             let { data } = res
             // console.log(data);
             renderAvatar(data)
-        }
+        },
+
     })
 }
 //获取用户信息
