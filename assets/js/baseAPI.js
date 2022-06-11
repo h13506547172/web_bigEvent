@@ -9,7 +9,7 @@ $.ajaxPrefilter(function (options) {
     };
   }
 
-  //complete是ajax提供的，返回的res包含传输的全过程
+  //complete是ajax提供的，返回的res包含传输的全过程,传输不管是否成功都会返回
   options.complete = (res) => {
     // console.log(res);
     //判断返回的信息是不是因本地密钥不存在或过期
